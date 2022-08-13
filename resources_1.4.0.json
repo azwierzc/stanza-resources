@@ -45,7 +45,7 @@
 		},
 		"pos": {
 			"iu": {
-				"md5": "113da1d7ba359288f600422d7e0fd1ae",
+				"md5": "113da1d7ba359288f600422d7e0fd1",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
