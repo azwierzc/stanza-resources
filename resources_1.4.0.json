@@ -1,0 +1,98 @@
+{
+	"uk": {
+		"backward_charlm": {
+			"conll17": {
+				"md5": "eb7f7081ff8f6afea4d0caebbeacacd5"
+			}
+		},
+		"depparse": {
+			"iu": {
+				"md5": "a4359f9d371c33151ab404e86f8d50e2",
+				"dependencies": [{
+						"model": "pretrain",
+						"package": "iu"
+					}
+				]
+			}
+		},
+		"forward_charlm": {
+			"conll17": {
+				"md5": "6971ebe224908d3253f0b4292b03e777"
+			}
+		},
+		"lemma": {
+			"iu": {
+				"md5": "90496cf60a91a37eeb3090f9d9b470be"
+			}
+		},
+		"mwt": {
+			"iu": {
+				"md5": "e08ae83fdf4a6aed2088953b415b04a0"
+			}
+		},
+		"ner": {
+			"languk": {
+				"md5": "922fa9fcbd24b7fd885b8727ce5df132",
+				"dependencies": [{
+						"model": "forward_charlm",
+						"package": "conll17"
+					}, {
+						"model": "backward_charlm",
+						"package": "conll17"
+					}
+				]
+			}
+		},
+		"pos": {
+			"iu": {
+				"md5": "113da1d7ba359288f600422d7e0fd1ae",
+				"dependencies": [{
+						"model": "pretrain",
+						"package": "iu"
+					}
+				]
+			}
+		},
+		"pretrain": {
+			"iu": {
+				"md5": "1e5782c86ae68c3acf0cf1f28ff05286"
+			}
+		},
+		"tokenize": {
+			"iu": {
+				"md5": "d95af4762702d9ba8e11c93e8d42f1f7"
+			}
+		},
+		"default_processors": {
+			"tokenize": "iu",
+			"mwt": "iu",
+			"lemma": "iu",
+			"pos": "iu",
+			"depparse": "iu",
+			"ner": "languk"
+		},
+		"default_dependencies": {
+			"pos": [{
+					"model": "pretrain",
+					"package": "iu"
+				}
+			],
+			"depparse": [{
+					"model": "pretrain",
+					"package": "iu"
+				}
+			],
+			"ner": [{
+					"model": "forward_charlm",
+					"package": "conll17"
+				}, {
+					"model": "backward_charlm",
+					"package": "conll17"
+				}
+			]
+		},
+		"default_md5": "5143e5ef576b0af41dac0adc020a9e4b",
+		"lang_name": "Ukrainian"
+	},
+	"url": "https://huggingface.co/stanfordnlp/stanza-{lang}/resolve/v{resources_version}/models/{filename}"
+}
