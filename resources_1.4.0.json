@@ -2,7 +2,7 @@
 	"uk-brown": {
 		"depparse": {
 			"iu": {
-				"md5": "e4fcc0a09c822a800c55a4d39c06d253",
+				"md5": "3a2a06b3a1f05cde765219211bf2e9bd",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -59,7 +59,7 @@
 				}
 			]
 		},
-		"default_md5": "aee0d5dcba85c48ed954cc67333f49b7",
+		"default_md5": "3a2a06b3a1f05cde765219211bf2e9bd",
 		"lang_name": "Ukrainian"
 	},
 	"url": "https://huggingface.co/azwierzc/stanza-{lang}-brown/resolve/main/models/{filename}"
