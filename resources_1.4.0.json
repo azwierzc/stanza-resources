@@ -62,5 +62,5 @@
 		"default_md5": "3a2a06b3a1f05cde765219211bf2e9bd",
 		"lang_name": "Ukrainian"
 	},
-	"url": "https://huggingface.co/azwierzc/stanza-{lang}-brown/resolve/main/models/{filename}"
+	"url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
 }
