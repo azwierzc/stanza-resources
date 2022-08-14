@@ -45,7 +45,7 @@
 			"mwt": "iu",
 			"lemma": "iu",
 			"pos": "iu",
-			"depparse": "iu",
+			"depparse": "iu"
 		},
 		"default_dependencies": {
 			"pos": [{
