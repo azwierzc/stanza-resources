@@ -12,17 +12,17 @@
 		},
 		"lemma": {
 			"iu": {
-				"md5": "5333f38ad80700d9d34a6b8421e967b3"
+				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
 			}
 		},
 		"mwt": {
 			"iu": {
-				"md5": "2f49dfe5b860acef565f2f8bc9b3a490"
+				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
 			}
 		},
 		"pos": {
 			"iu": {
-				"md5": "76b291b439af131e5c2f945094377d32",
+				"md5": "3a2a06b3a1f05cde765219211bf2e9bd",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -32,7 +32,7 @@
 		},
 		"pretrain": {
 			"iu": {
-				"md5": "1e5782c86ae68c3acf0cf1f28ff05286"
+				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
 			}
 		},
 		"tokenize": {
