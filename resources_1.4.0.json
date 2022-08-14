@@ -1,13 +1,8 @@
 {
-	"uk": {
-		"backward_charlm": {
-			"conll17": {
-				"md5": "eb7f7081ff8f6afea4d0caebbeacacd5"
-			}
-		},
+	"uk-brown": {
 		"depparse": {
 			"iu": {
-				"md5": "a4359f9d371c33151ab404e86f8d50e2",
+				"md5": "e4fcc0a09c822a800c55a4d39c06d253",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -15,37 +10,19 @@
 				]
 			}
 		},
-		"forward_charlm": {
-			"conll17": {
-				"md5": "6971ebe224908d3253f0b4292b03e777"
-			}
-		},
 		"lemma": {
 			"iu": {
-				"md5": "90496cf60a91a37eeb3090f9d9b470be"
+				"md5": "5333f38ad80700d9d34a6b8421e967b3"
 			}
 		},
 		"mwt": {
 			"iu": {
-				"md5": "e08ae83fdf4a6aed2088953b415b04a0"
-			}
-		},
-		"ner": {
-			"languk": {
-				"md5": "922fa9fcbd24b7fd885b8727ce5df132",
-				"dependencies": [{
-						"model": "forward_charlm",
-						"package": "conll17"
-					}, {
-						"model": "backward_charlm",
-						"package": "conll17"
-					}
-				]
+				"md5": "2f49dfe5b860acef565f2f8bc9b3a490"
 			}
 		},
 		"pos": {
 			"iu": {
-				"md5": "113da1d7ba359288f600422d7e0fd1",
+				"md5": "76b291b439af131e5c2f945094377d32",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -60,7 +37,7 @@
 		},
 		"tokenize": {
 			"iu": {
-				"md5": "d95af4762702d9ba8e11c93e8d42f1f7"
+				"md5": "55497caffcdac4347c1aacc7651cb560"
 			}
 		},
 		"default_processors": {
@@ -69,7 +46,6 @@
 			"lemma": "iu",
 			"pos": "iu",
 			"depparse": "iu",
-			"ner": "languk"
 		},
 		"default_dependencies": {
 			"pos": [{
@@ -81,17 +57,9 @@
 					"model": "pretrain",
 					"package": "iu"
 				}
-			],
-			"ner": [{
-					"model": "forward_charlm",
-					"package": "conll17"
-				}, {
-					"model": "backward_charlm",
-					"package": "conll17"
-				}
 			]
 		},
-		"default_md5": "5143e5ef576b0af41dac0adc020a9e4b",
+		"default_md5": "aee0d5dcba85c48ed954cc67333f49b7",
 		"lang_name": "Ukrainian"
 	},
 	"url": "https://huggingface.co/azwierzc/stanza-{lang}-brown/resolve/v{resources_version}/models/{filename}"
