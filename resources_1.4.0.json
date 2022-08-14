@@ -2,7 +2,7 @@
 	"uk-brown": {
 		"depparse": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd",
+				"md5": "e4fcc0a09c822a800c55a4d39c06d253",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -12,17 +12,17 @@
 		},
 		"lemma": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+				"md5": "5333f38ad80700d9d34a6b8421e967b3"
 			}
 		},
 		"mwt": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+				"md5": "2f49dfe5b860acef565f2f8bc9b3a490"
 			}
 		},
 		"pos": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd",
+				"md5": "76b291b439af131e5c2f945094377d32",
 				"dependencies": [{
 						"model": "pretrain",
 						"package": "iu"
@@ -32,12 +32,12 @@
 		},
 		"pretrain": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+				"md5": "1e5782c86ae68c3acf0cf1f28ff05286"
 			}
 		},
 		"tokenize": {
 			"iu": {
-				"md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+				"md5": "55497caffcdac4347c1aacc7651cb560"
 			}
 		},
 		"default_processors": {
@@ -59,7 +59,7 @@
 				}
 			]
 		},
-		"default_md5": "3a2a06b3a1f05cde765219211bf2e9bd",
+		"default_md5": "aee0d5dcba85c48ed954cc67333f49b7",
 		"lang_name": "Ukrainian"
 	},
 	"url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
