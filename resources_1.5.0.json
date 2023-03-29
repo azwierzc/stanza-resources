@@ -40,6 +40,11 @@
         ]
       }
     },
+	"pretrain": {
+      "pdb": {
+        "md5": "818851bc41b722956456608ceb00483b"
+      }
+    },
     "tokenize": {
       "pdb": {
         "md5": "71ea52146331713f597c708bd16402f3"
@@ -52,6 +57,28 @@
 			"pos": "pdb",
 			"depparse": "pdb"
 		},
+	"default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "pdb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "pdb"
+        }
+      ]
+    }
   },
   "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
 }
