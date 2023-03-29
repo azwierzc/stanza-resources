@@ -23,7 +23,7 @@
     },
     "pos": {
       "pdb": {
-        "md5": "da6a9357abd03ce294aea86989ec0c39",
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -49,7 +49,7 @@
       "pdb": {
         "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
-    },
+    },          
     "default_processors": {
       "tokenize": "pdb",
       "mwt": "pdb",
