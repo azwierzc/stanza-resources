@@ -2,7 +2,7 @@
   "pl-nkjp": {
     "depparse": {
       "pdb": {
-        "md5": "201c7a56bbac2acc298cccc4db1326f3",
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -13,7 +13,7 @@
     },
     "lemma": {
       "pdb": {
-        "md5": "2b4a8e2a4ee6a32e111368faf5de3abc"
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
     },
     "mwt": {
@@ -42,7 +42,7 @@
     },
     "pretrain": {
       "pdb": {
-        "md5": "818851bc41b722956456608ceb00483b"
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
     },
     "tokenize": {
