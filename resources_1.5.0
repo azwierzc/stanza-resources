@@ -1,0 +1,50 @@
+{
+  "pl-nkjp": {
+    "depparse": {
+      "pdb": {
+        "md5": "201c7a56bbac2acc298cccc4db1326f3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "pdb"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "pdb": {
+        "md5": "2b4a8e2a4ee6a32e111368faf5de3abc"
+      }
+    },
+    "mwt": {
+      "pdb": {
+        "md5": "effcbf0cd792ee2fa8f16e09caec6746"
+      }
+    },
+    "pos": {
+      "pdb": {
+        "md5": "da6a9357abd03ce294aea86989ec0c39",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "pdb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "tokenize": {
+      "pdb": {
+        "md5": "71ea52146331713f597c708bd16402f3"
+      }
+    }
+  },
+  "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
+}
