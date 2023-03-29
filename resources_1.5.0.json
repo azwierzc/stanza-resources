@@ -7,7 +7,7 @@
     },
     "depparse": {
       "pdb": {
-        "md5": "201c7a56bbac2acc298cccc4db1326f3",
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
         "dependencies": [
           {
             "model": "pretrain",
