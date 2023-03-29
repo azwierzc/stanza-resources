@@ -2,7 +2,7 @@
   "pl-nkjp": {
     "backward_charlm": {
       "oscar": {
-        "md5": "229851f7845bea66f7c806d4c0891f02"
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
     },
     "depparse": {
@@ -18,7 +18,7 @@
     },
     "forward_charlm": {
       "oscar": {
-        "md5": "7be3920ba5a780a59676a45750cddc2e"
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
     },
     "lemma": {
@@ -33,7 +33,7 @@
     },
     "ner": {
       "nkjp": {
-        "md5": "2e48f2c391fbe1df3d5cf1988dc8f8a3",
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -71,7 +71,7 @@
     },
     "pretrain": {
       "pdb": {
-        "md5": "818851bc41b722956456608ceb00483b"
+        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
       }
     },
     "tokenize": {
