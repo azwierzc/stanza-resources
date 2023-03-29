@@ -45,6 +45,13 @@
         "md5": "71ea52146331713f597c708bd16402f3"
       }
     }
+    "default_processors": {
+			"tokenize": "pdb",
+			"mwt": "pdb",
+			"lemma": "pdb",
+			"pos": "pdb",
+			"depparse": "pdb"
+		},
   },
   "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
 }
