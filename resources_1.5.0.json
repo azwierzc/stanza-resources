@@ -50,6 +50,14 @@
         "md5": "b59b28b920a4842dfa64811c7a0f7273"
       }
     },
+        "default_processors": {
+      "tokenize": "pdb",
+      "mwt": "pdb",
+      "lemma": "pdb",
+      "pos": "pdb",
+      "depparse": "pdb",
+      "ner": "nkjp"
+    },
         "default_dependencies": {
       "pos": [
         {
