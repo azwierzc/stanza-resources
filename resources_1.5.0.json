@@ -1,8 +1,13 @@
 {
   "pl-nkjp": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "229851f7845bea66f7c806d4c0891f02"
+      }
+    },
     "depparse": {
       "pdb": {
-        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
+        "md5": "23ca12ebc42599ce7757966507ef5164",
         "dependencies": [
           {
             "model": "pretrain",
@@ -11,19 +16,43 @@
         ]
       }
     },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "7be3920ba5a780a59676a45750cddc2e"
+      }
+    },
     "lemma": {
       "pdb": {
-        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+        "md5": "57b934d48f2343f158d755ead341aa50"
       }
     },
     "mwt": {
       "pdb": {
-        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+        "md5": "effcbf0cd792ee2fa8f16e09caec6746"
+      }
+    },
+    "ner": {
+      "nkjp": {
+        "md5": "2e48f2c391fbe1df3d5cf1988dc8f8a3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "pdb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       }
     },
     "pos": {
       "pdb": {
-        "md5": "3a2a06b3a1f05cde765219211bf2e9bd",
+        "md5": "a5b4fa01bee0b7f11d6bc03b023cebf9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -42,7 +71,7 @@
     },
     "pretrain": {
       "pdb": {
-        "md5": "3a2a06b3a1f05cde765219211bf2e9bd"
+        "md5": "818851bc41b722956456608ceb00483b"
       }
     },
     "tokenize": {
@@ -50,7 +79,7 @@
         "md5": "b59b28b920a4842dfa64811c7a0f7273"
       }
     },
-        "default_processors": {
+    "default_processors": {
       "tokenize": "pdb",
       "mwt": "pdb",
       "lemma": "pdb",
@@ -58,9 +87,47 @@
       "depparse": "pdb",
       "ner": "nkjp"
     },
-      
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "pdb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "pdb"
+        }
+      ],
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "pdb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
     "default_md5": "27ab0aceb8af35e6a5b4f8da6bf0f666",
     "lang_name": "Polish"
+  },
+  "polish": {
+    "alias": "pl"
   },
   "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
 }
