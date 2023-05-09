@@ -58,42 +58,7 @@
       "depparse": "pdb",
       "ner": "nkjp"
     },
-        "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "pdb"
-        },
-        {
-          "model": "forward_charlm",
-          "package": "oscar"
-        },
-        {
-          "model": "backward_charlm",
-          "package": "oscar"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "pdb"
-        }
-      ],
-      "ner": [
-        {
-          "model": "pretrain",
-          "package": "pdb"
-        },
-        {
-          "model": "forward_charlm",
-          "package": "oscar"
-        },
-        {
-          "model": "backward_charlm",
-          "package": "oscar"
-        }
-      ]
-    },
+      
     "default_md5": "27ab0aceb8af35e6a5b4f8da6bf0f666",
     "lang_name": "Polish"
   },
