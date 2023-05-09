@@ -62,8 +62,5 @@
     "default_md5": "27ab0aceb8af35e6a5b4f8da6bf0f666",
     "lang_name": "Polish"
   },
-  "polish": {
-    "alias": "pl"
-  },
   "url": "https://huggingface.co/azwierzc/stanza-{lang}/resolve/main/models/{filename}"
 }
