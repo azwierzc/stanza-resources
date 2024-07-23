@@ -8426,7 +8426,8 @@
         "lemma": "pdb_nocharlm",
         "pos": "pdb_charlm",
         "depparse": "pdb_charlm",
-        "ner": "nkjp"
+        "ner": "nkjp",
+        "sentiment": "polemo"
       },
       "default_fast": {
         "tokenize": "pdb",
