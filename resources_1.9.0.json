@@ -62,6 +62,15 @@
 			"pos": "iu_charlm",
 			"depparse": "iu_charlm"
 		},
+		    "packages": {
+		      "default": {
+		        "tokenize": "iu",
+		        "mwt": "iu",
+		        "lemma": "iu_charlm",
+		        "pos": "iu_charlm",
+		        "depparse": "iu_charlm"
+		      }
+		    }
 		"default_md5": "40e3d52f54cc2ae5c2042376155de3e1",
 		"lang_name": "Ukrainian"
 	},
