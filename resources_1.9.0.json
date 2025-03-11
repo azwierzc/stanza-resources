@@ -1,5 +1,10 @@
 {
 	"uk-pawuk": {
+		"backward_charlm": {
+			"conll17": {
+				"md5": "eb7f7081ff8f6afea4d0caebbeacacd5"
+			}
+		},
 		"depparse": {
 			"iu_charlm": {
 				"md5": "9e69eaf5f7c8fb96bd07e93a73e3a4f3",
@@ -14,6 +19,11 @@
 						"package": "conll17"
 					}
 				]
+			}
+		},
+		"forward_charlm": {
+			"conll17": {
+				"md5": "6971ebe224908d3253f0b4292b03e777"
 			}
 		},
 		"lemma": {
@@ -50,6 +60,11 @@
 				]
 			}
 		},
+		"pretrain": {
+			"conll17": {
+				"md5": "ef6e8fd63ac097d95b8e66d2a8e3707d"
+			}
+		},
 		"tokenize": {
 			"iu": {
 				"md5": "24415dec22f7f4d6d3061e20bc9f0dd7"
@@ -62,15 +77,15 @@
 			"pos": "iu_charlm",
 			"depparse": "iu_charlm"
 		},
-		    "packages": {
-		      "default": {
-		        "tokenize": "iu",
-		        "mwt": "iu",
-		        "lemma": "iu_charlm",
-		        "pos": "iu_charlm",
-		        "depparse": "iu_charlm"
-		      }
-		    },
+		"packages": {
+			"default": {
+				"tokenize": "iu",
+				"mwt": "iu",
+				"lemma": "iu_charlm",
+				"pos": "iu_charlm",
+				"depparse": "iu_charlm"
+			}
+		},
 		"default_md5": "40e3d52f54cc2ae5c2042376155de3e1",
 		"lang_name": "Ukrainian"
 	},
