@@ -3,60 +3,53 @@
 		"depparse": {
 			"iu_charlm": {
 				"md5": "9e69eaf5f7c8fb96bd07e93a73e3a4f3",
-				"dependencies":  [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
+				"dependencies": [{
+						"model": "pretrain",
+						"package": "conll17"
+					}, {
+						"model": "forward_charlm",
+						"package": "conll17"
+					}, {
+						"model": "backward_charlm",
+						"package": "conll17"
+					}
+				]
 			}
 		},
-	    "lemma": {
-      "iu_charlm": {
-        "md5": "4a195a082c8b9782ad888a407e34bb81",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
+		"lemma": {
+			"iu_charlm": {
+				"md5": "4a195a082c8b9782ad888a407e34bb81",
+				"dependencies": [{
+						"model": "forward_charlm",
+						"package": "conll17"
+					}, {
+						"model": "backward_charlm",
+						"package": "conll17"
+					}
+				]
+			}
+		},
 		"mwt": {
 			"iu": {
 				"md5": "4b4e37c0edb4ebbe9f89fb490bc36e8f"
 			}
 		},
- "pos": {
-      "iu_charlm": {
-        "md5": "f07d6f12bc813e8a3266a59486e77162",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
+		"pos": {
+			"iu_charlm": {
+				"md5": "f07d6f12bc813e8a3266a59486e77162",
+				"dependencies": [{
+						"model": "pretrain",
+						"package": "conll17"
+					}, {
+						"model": "forward_charlm",
+						"package": "conll17"
+					}, {
+						"model": "backward_charlm",
+						"package": "conll17"
+					}
+				]
+			}
+		},
 		"tokenize": {
 			"iu": {
 				"md5": "24415dec22f7f4d6d3061e20bc9f0dd7"
